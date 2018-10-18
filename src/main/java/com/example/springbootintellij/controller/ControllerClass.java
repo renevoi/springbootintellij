@@ -11,4 +11,9 @@ public class ControllerClass {
         return "Welcome HOme";
     }
 
+    @GetMapping("/test")
+    public String test(){
+        return "Welcome HOme";
+    }
+
 }
